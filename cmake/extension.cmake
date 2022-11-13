@@ -134,6 +134,7 @@ macro(sdk_set_main_file)
   set(CURRENT_MAIN_FILE ${path})
 endmacro()
 
+#[[
 macro(project name)
 
   if(CPU_ID)
@@ -185,3 +186,4 @@ macro(project name)
   endif()
 
 endmacro()
+#]]

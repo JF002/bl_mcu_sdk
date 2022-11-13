@@ -1,1 +1,1 @@
-add_subdirectory(${BOARD})
+add_subdirectory(${BL_BOARD})

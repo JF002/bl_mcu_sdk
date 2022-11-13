@@ -2597,7 +2597,7 @@ void GPIO_INT0_IRQHandler(void)
             } while ((SET == GLB_Get_GPIO_IntStatus(gpioPin)) && timeOut);
 
             if (!timeOut) {
-                MSG("WARNING: Clear GPIO interrupt status fail.\r\n");
+//                MSG("WARNING: Clear GPIO interrupt status fail.\r\n");
             }
 
             /* if timeOut==0, GPIO interrupt status not cleared */
